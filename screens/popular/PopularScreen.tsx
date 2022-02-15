@@ -58,7 +58,7 @@ const PopularScreen = ({ navigation }: { navigation: any }) => {
           columnWrapperStyle={commonStyles.imgRow}
           keyExtractor={(item, index) => item.original_title}
           renderItem={({ item }) => renderImageView(item)}
-          onEndReachedThreshold={0.1}
+          onEndReachedThreshold={6}
           onEndReached={info => {
             fetchPopularMovie(currentPage)
           }}
