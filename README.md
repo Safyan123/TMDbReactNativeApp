@@ -3,14 +3,14 @@
 Downlaod and Install the node modules by using command npm install
 Install the Pods for iOS go to ios folder by cd ios && pod install
 
-## Information:
+Information:
 
-### React-Native Project
+React-Native Project
 
-### Typescript is used
+Typescript is used
 
-### TDMb API is integrated
+TDMb API is integrated
 
-### Pagination for new results implemented
+Pagination for new results implemented
 
-### Lazyloading implemented
+Lazyloading implemented
